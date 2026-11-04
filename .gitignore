@@ -1,0 +1,38 @@
+# ===== MA'LUMOTLAR GITGA YUBORILMAYDI (faqat lokal PC da) =====
+# GIS ma'lumotlari
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.sbn
+*.sbx
+*.shp.xml
+*.qmd
+*.gpkg
+*.gpkg-*
+*.gdb/
+*.parquet
+*.zip
+# natijalar, jadvallar, jurnallar
+*.xlsx
+*.xls
+*.csv
+jurnal.txt
+*_log.txt
+*_tekshiruv.txt
+# ma'lumot papkalari
+boshqalar/
+input/
+natija/
+natija_*/
+# rasmlar faqat docs/img dan
+*.png
+*.jpg
+!docs/img/*.png
+# Python / muhit
+__pycache__/
+*.pyc
+.claude/
+.vscode/
+.idea/
