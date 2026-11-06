@@ -3,6 +3,16 @@
 **Ekin yerlari: mavsum (Birlamchi / Ikkilamchi / Mavsumiy) va to'liq dala** — qishloq xo'jaligi loyihasidan
 kelgan ekin konturlarini suv iste'molini hisoblash uchun tayyorlaydigan GIS dastur (Python, GeoPandas).
 
+## Versiyalar (loyiha bosqichlari)
+
+| Versiya | Repozitoriy | Nima qiladi |
+|---|---|---|
+| **v1** (shu repozitoriy, teg `v1.0`) | GitHub [`fazogird/birlamchi_ikkilamchi`](https://github.com/fazogird/birlamchi_ikkilamchi) · GitLab `d.nozimov/birlamchi_ikkilamchi_mavsum` | konturlarni **tuzatish**: mavsum, to'liq dala, fermer ma'lumoti, `uniqueid`, qat'iy suv oylari |
+| **v2** | GitHub [`fazogird/polygon_holati`](https://github.com/fazogird/polygon_holati) · GitLab `d.nozimov/dalaga_index_run` | v1 natijasiga **Sentinel-2 indeks** (NDVI, EVI2, NDMI) yozish va dalaning **o'z faol davrini** ajratish → NDVI bo'yicha suv oylari |
+
+v1 natijasi (`ekin_yerlar_toliq.gpkg`, `uniqueid` bilan) v2 ning kirish fayli. v2 da qat'iy oylar (3–5 / 6–10 / 3–10)
+har kontur uchun sun'iy yo'ldoshdan aniqlangan haqiqiy faol davr bilan tekshiriladi (masalan, bug'doy 2–6).
+
 ## Muammo
 
 Qishloq xo'jaligi loyihasi faqat **ekilgan qismni** chizadi va mavsumlar shevada, chalkash yozilgan.
